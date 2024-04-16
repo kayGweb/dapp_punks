@@ -23,7 +23,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "_allowMiningOn",
+				"name": "_allowMintingOn",
 				"type": "uint256"
 			},
 			{
@@ -169,7 +169,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "allowMiningOn",
+		"name": "allowMintingOn",
 		"outputs": [
 			{
 				"internalType": "uint256",

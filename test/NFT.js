@@ -47,7 +47,7 @@ describe("NFT", () => {
 		});
 
 		it("returns the allowed minting time", async () => {
-			expect(await nft.allowMiningOn()).to.equal(ALLOW_MINTING_ON);
+			expect(await nft.allowMintingOn()).to.equal(ALLOW_MINTING_ON);
 		});
 
 		it("returns the base uri", async () => {
