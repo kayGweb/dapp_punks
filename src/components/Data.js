@@ -5,15 +5,15 @@ const Data = ({ maxSupply, totalSupply, cost, balance }) => {
 		<div className="text-center">
 			<p>
 				<strong>Avaialbe to Mine:</strong>
-				{maxSupply - totalSupply}
+				&nbsp;{maxSupply - totalSupply}
 			</p>
 			<p>
 				<strong>Cost to Mint:</strong>
-				{ethers.utils.formatUnits(cost, "ether")} ETH
+				&nbsp;{ethers.utils.formatUnits(cost, "ether")} ETH
 			</p>
 			<p>
 				<strong>You own:</strong>
-				{balance.toString()} ETH
+				&nbsp;{balance.toString()} ETH
 			</p>
 		</div>
 	);

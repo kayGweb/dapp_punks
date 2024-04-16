@@ -1,5 +1,4 @@
 import Navbar from "react-bootstrap/Navbar";
-
 import logo from "../logo.png";
 
 const Navigation = ({ account }) => {
