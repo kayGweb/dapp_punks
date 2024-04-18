@@ -16,8 +16,8 @@ import Mint from "./Mint";
 import NFT_ABI from "../abis/NFT.json";
 
 // Config: Import your network config here
+//import { set } from "lodash";
 import config from "../config.json";
-import { set } from "lodash";
 
 function App() {
 	const [provider, setProvider] = useState(null);
